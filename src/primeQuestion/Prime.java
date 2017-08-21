@@ -27,6 +27,7 @@ public class Prime {
 				if(i%j==0 && i!=2)
 				{
 					prime=false;
+					break;
 				}
 				
 			}
