@@ -22,7 +22,7 @@ public class Prime {
 		for(int i = this.min ; i<= this.max ; i++)
 		{	
 			boolean prime=true;
-			int division =(int) Math.ceil(Math.sqrt(i));
+			int division =(int) Math.floor(Math.sqrt(i));
 			for (int j=2;j<=division;j++) {
 				if(i%j==0 && i!=2)
 				{
